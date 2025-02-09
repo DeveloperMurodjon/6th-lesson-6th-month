@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axiosInstance from "../services/axiosInstance";
 import { ToastContainer, toast } from "react-toastify";
-import Loader from "./loader";
+import Loader from "./Loader.jsx";
 
 const PostList = () => {
   const [posts, setPosts] = useState([]);
